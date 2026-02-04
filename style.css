@@ -22,3 +22,32 @@ p {
   line-height: 1.6;
   color: #444;
 }
+
+.resep-list {
+  display: grid;
+  grid-template-colums: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.resep-card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 16px;
+  backgroud: #fff;
+}
+
+.resep-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.resep-card h3 {
+  margin: 0 0 6px;
+}
+
+.resep-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
