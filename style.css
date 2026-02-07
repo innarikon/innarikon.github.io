@@ -109,6 +109,7 @@ a:hover {
   backdrop-filter: blur(6px);
   border-bottom: 1px solid #eee;
   z-index: 100;
+  font-size: 0.95rem;
 }
 
 .header-inner {
