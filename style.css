@@ -100,3 +100,34 @@ a:hover {
   color: #555;
   max-width: 560px;
 }
+
+/* ===== Header Simple ===== */
+.site-header {
+  position: sticky;
+  top: 0;
+  background: rgba(246, 246, 244, 0.9); /*nyatu dengan background*/
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid #eee;
+  z-index: 100;
+}
+
+.header-inner {
+  max-widht: 680px;
+  margin: auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.site-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111;
+  text-decoration: none;
+}
+
+site-desc {
+  font-size: 0.85rem;
+  color: #666;
+}
