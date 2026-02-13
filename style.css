@@ -24,7 +24,7 @@ body {
 .screen {
   background: #ffffff;
   border-radius: 38px;
-  overflow: visible;
+  overflow: hidden;
 }
 
 /* Hero */
@@ -32,6 +32,8 @@ body {
   width: 100%
   height: auto;
   display: block;
+  max-height: 420px;
+  object-fit: contain;
 }
 
 /* Content */
