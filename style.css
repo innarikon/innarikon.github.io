@@ -4,7 +4,7 @@ body {
 }
 
 .app-bg {
-  background: linear-fradient(135deg, #d8d2f5, #bfb7ec);
+  background: linear-gradient(135deg, #dcd6f7 #c8c1f0);
   min-hight: 100vh;
   display: flex;
   align-item: center;
@@ -25,6 +25,7 @@ body {
   background: #ffffff;
   border-radius: 32px;
   overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
 }
 
 /* Hero */
@@ -48,6 +49,12 @@ body {
 h1 {
   margin: 8px 0 16px;
   font-size: 1.5rem;
+  font-weight: 16px 0 8px;
+}
+
+p, li {
+  color: #555;
+  line-height: 1.7;
 }
 
 .rating {
@@ -72,7 +79,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 8px;
+  margin-bottom: 24px;
   font-size: 1.1rem;
 }
 
