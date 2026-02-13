@@ -23,8 +23,8 @@ body {
 
 .screen {
   background: #ffffff;
-  border-radius: 32px;
-  overflow: hidden;
+  border-radius: 38px;
+  overflow: visible;
 }
 
 /* Hero */
