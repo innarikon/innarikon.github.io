@@ -16,7 +16,7 @@ body {
 .phone {
   width: 380px;
   border-radius: 40px;
-  bacground: #f4f4f4;
+  background: #f4f4f4;
   box-shadow: 0 30px 60px rgba(0,0,0,0.2);
   padding: 16px;
 }
@@ -29,7 +29,7 @@ body {
 
 /* Hero */
 .hero-img {
-  width: 100%
+  width: 100%;
   height: auto;
   display: block;
 }
