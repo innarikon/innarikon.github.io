@@ -60,8 +60,23 @@ p, li {
 }
 
 .rating {
-  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin-bottom: 20px;
+}
+
+.stars {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.score {
+  background: #fff3cd;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 /* Info Grid */
@@ -86,8 +101,8 @@ p, li {
 }
 
 .info-box:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
 }  
 
 .info-box:after {
@@ -139,4 +154,28 @@ ul {
 
 li {
   margin-bottom: 6px;
+}
+
+.floating {
+  position: absolute;
+  font-size: 28px;
+  opacity: 0.15;
+  animation: float 6s ease-in-out infinite;
+}
+
+.floating.two {
+  top: 20%;
+  left: 10%;
+  animation-delay: 2s;
+}
+
+.floating.three {
+  bottom: 15%;
+  right: 15%;
+  animation-delay: 4s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
 }
