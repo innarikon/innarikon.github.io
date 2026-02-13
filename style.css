@@ -23,7 +23,7 @@ body {
 
 .screen {
   background: #ffffff;
-  border-radius: 38px;
+  border-radius: 32px;
   overflow: hidden;
 }
 
@@ -32,9 +32,6 @@ body {
   width: 100%
   height: auto;
   display: block;
-  max-height: 420px;
-  object-fit: contain;
-  border-bottom: 1px solid #eee;
 }
 
 /* Content */
