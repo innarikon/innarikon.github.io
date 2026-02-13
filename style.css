@@ -67,17 +67,34 @@ p, li {
 /* Info Grid */
 .info-grid {
   display: flex;
-  gap: 10px;
+  gap: 12px;
   margin-bottom: 24px;
 }
 
 .info-box {
   flex: 1;
   background: #f0f0f0;
-  border-radius: 16px;
-  padding: 12px;
-  font-size: 0.8rem;
+  border-radius: 18px;
+  padding: 14px;
+  font-size: 0.85rem;
   text-align: center;
+  font-weight: 600;
+}
+
+/* Warna Pastel Berbeda */
+.pink {
+  background: #ffe3f1;
+  color: #4a8dff;
+}
+
+.blue {
+  background: #e3f0ff;
+  color: #4a8dff;
+}
+
+.green {
+  background: #e4ffe8;
+  color: #3cb371;
 }
 
 h2 {
