@@ -186,25 +186,25 @@ li {
   margin-top: 20px;
   border: 2px solid #ffb6d9;
   border-radius: 40px;
-  
   background: linear-gradient(135deg, #ffb6d9, #ffc8a2);
   color: #5a3e4d;
-  
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.5px;
-  
   cursor: pointer;
-  
   box-shadow: 0 6px 14px rgba(0, 0, 0,0.06);
   transition: all 0.3s ease;
-
   position: relative;
   overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  gap: 8px;
 }
 
-.cta-btn:hover {
-  transform: #ffb6d9;
+.cta-btn:hover.icon {
+  transform: tranlatey(-3px);
   background: linear-gradient(135deg, #ff9fc9, #ffb88c);
   color: #4a2f3c;
   box-shadow: 0 14px 26px rgaba(255, 182, 217, 0.45);
