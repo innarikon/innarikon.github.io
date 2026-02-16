@@ -221,3 +221,35 @@ li {
   opacity: 0.5;
   pointer-events: none;
 }
+
+.top.nav {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.nav-item {
+  padding: 8px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+
+  background: #fff0f6;
+  color: #d63384;
+
+  transition: all 0.25s ease;
+}
+
+.nav-item: hover {
+  background: #ffb6d9;
+  color: #5a3e4d;
+  transform: translateY(-2px);
+}
+
+.nav-item.active {
+  background: linear-gradient(135deg, #ffb6d9, #ffc8a2);
+  color: #5a3e4d;
+  box-shadow: 0 6x 14px rgba(255, 182, 217, 0.35);
+}
