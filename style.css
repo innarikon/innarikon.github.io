@@ -10,6 +10,7 @@ body {
   align-item: center;
   justify-content: center;
   padding: 40px;
+  position: relative;
 }
 
 /* Simulasi Layar HP */
@@ -223,10 +224,10 @@ li {
 }
 
 .top.nav {
+  position: absolute;
+  top: 30px;
   display: flex;
-  justify-content: center;
   gap: 16px;
-  padding: 16px 0;
 }
 
 .nav-item {
